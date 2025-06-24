@@ -1,0 +1,16 @@
+# Environment variables
+python-dotenv>=1.0.0
+
+# Typing back-ports (needed for Python <3.12)
+typing_extensions>=4.10.0
+
+# LangChain ecosystem
+langchain>=0.2.0
+langchain-core>=0.2.0   # ensures explicit access to langchain_core.*
+
+# LangGraph ecosystem
+langgraph>=0.0.37
+langgraph-sdk>=0.0.8     # client for LangGraph Platform
+
+# Web interface
+streamlit>=1.33.0

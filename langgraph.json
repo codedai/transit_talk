@@ -1,0 +1,8 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "agent": "./src/agent/transit_talk_graph.py:transit_talk_graph"
+  },
+  "env": ".env",
+  "image_distro": "wolfi",
+}

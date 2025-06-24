@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.query-box {
+    margin-top: 1rem;
+    font-size: 16px;
+    float: right;
+    border: 2px solid;
+    padding: .7rem 1rem .1rem;
+    border-radius: 1rem;
+    position: relative;
+    
+}
+
+.response-box {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 15px;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    border: 2px solid;
+
+}
+
+/* History panel styling */
+.history-panel {
+    flex: 1;
+    padding: 20px;
+    border-left: 2px solid #f0f0f0;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.stSidebar > div:first-child {
+    width: 350px; 
+}
+
+.stSidebar button {
+    width: 100%; 
+    white-space: normal; 
+    text-align: left; 
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.stSidebar button:hover {
+    background-color: #e0e0e0; 
+    color: #000000; 
+}
+
+/* Button styling */
+.stButton button {
+    border: none;
+    background-color: transparent;
+}
+
+.stButton button:hover {
+    color: darkblue;
+    background-color: white;
+}
+
+.query-box .edit-button {
+    position: absolute;
+    margin-top: 2rem;
+    right: 25px;
+    font-size: 12px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #007bff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .query-box,
+    .response-box {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .stSidebar > div:first-child {
+        width: 100%;
+    }
+}
