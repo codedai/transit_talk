@@ -1,4 +1,4 @@
-# 🚌 Transit Talk
+# 🚌 TransitTalk: LLM-based Digital Assistants for Enhancing Transit Customer Experience and Staff Performance
 
 **Transit Talk** is a conversational assistant for planning public transit trips in the Greater Toronto Area. Built using [LangGraph](https://github.com/langchain-ai/langgraph), [Streamlit](https://streamlit.io/), and OpenAI, it enables users to receive real-time routing, alerts, weather, and policy updates—conversationally.
 
