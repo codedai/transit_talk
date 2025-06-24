@@ -1,7 +1,3 @@
-Thanks for sharing the file structure. Based on this, here is a **corrected and improved** version of the `README.md` that aligns with your project layout, including updated file references, better instructions, and improved formatting.
-
----
-
 # 🚌 Transit Talk
 
 **Transit Talk** is a conversational assistant for planning public transit trips in the Greater Toronto Area. Built using [LangGraph](https://github.com/langchain-ai/langgraph), [Streamlit](https://streamlit.io/), and OpenAI, it enables users to receive real-time routing, alerts, weather, and policy updates—conversationally.
