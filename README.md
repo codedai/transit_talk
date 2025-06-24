@@ -141,7 +141,7 @@ Open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ## ⚠️ Known Issues
 
-* 🧠 **LangGraph memory issue:** The hosted LangGraph platform may not support memory during deployment. Use local mode (`inmem`) for memory persistence.
+-* 🧠 **LangGraph memory issue:** The hosted LangGraph platform may not support memory during deployment. Use local mode (`inmem`) for memory persistence.-
 * 🚨 **GO Transit Alert API:** Alerts may fail to load. Mock data is recommended when testing the Tweet Writer agent.
 
 ---
