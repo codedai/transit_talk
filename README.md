@@ -1,8 +1,4 @@
-Thanks for sharing the file structure. Based on this, here is a **corrected and improved** version of the `README.md` that aligns with your project layout, including updated file references, better instructions, and improved formatting.
-
----
-
-# 🚌 Transit Talk
+# 🚌 TransitTalk: LLM-based Digital Assistants for Enhancing Transit Customer Experience and Staff Performance
 
 **Transit Talk** is a conversational assistant for planning public transit trips in the Greater Toronto Area. Built using [LangGraph](https://github.com/langchain-ai/langgraph), [Streamlit](https://streamlit.io/), and OpenAI, it enables users to receive real-time routing, alerts, weather, and policy updates—conversationally.
 
@@ -165,7 +161,7 @@ Open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ## ⚠️ Known Issues
 
-* 🧠 **LangGraph memory issue:** The hosted LangGraph platform may not support memory during deployment. Use local mode (`inmem`) for memory persistence.
+-* 🧠 **LangGraph memory issue:** The hosted LangGraph platform may not support memory during deployment. Use local mode (`inmem`) for memory persistence.-
 * 🚨 **GO Transit Alert API:** Alerts may fail to load. Mock data is recommended when testing the Tweet Writer agent.
 
 ---
