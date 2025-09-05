@@ -55,8 +55,8 @@ transit_talk_repo/
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
-cd transit_talk_repo
+git clone https://github.com/codedai/transit_talk.git
+cd transit_talk
 ```
 
 ### 2. Install Dependencies
@@ -66,13 +66,32 @@ Create a virtual environment:
 ```bash
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
-pip install -r requirements.txt
 ```
 
-Install LangGraph CLI:
+or use `conda`:
 
 ```bash
-pip install "langgraph-cli[inmem]"
+conda create -n transit_talk python==3.12
+conda activate transit_talk
+```
+
+Install required packages:
+```bash
+# LangGraph
+pip install -U langgraph
+pip install --upgrade "langgraph-cli[inmem]"
+
+# Streamlit
+pip install streamlit
+
+# LangChain
+pip install -qU "langchain[openai]"
+pip install langchain-community
+
+# Utilities
+pip install -U googlemaps folium polyline scikit-learn chromadb
+pip install -U sentence-transformers   # ⚠️ Large package, may take a while
+pip install beautifulsoup4
 ```
 
 ---
@@ -88,9 +107,10 @@ cp .env.example .env
 Then add your secrets:
 
 ```env
-OPENAI_API_KEY=sk-...
-# Optional:
-# LANGSMITH_API_KEY=lsv2-...
+MAPBOX_TOKEN=...
+GOOGLE_MAPS_API_KEY=...
+
+OPENAI_API_KEY=...
 ```
 
 See `.env.example` for all available variables.

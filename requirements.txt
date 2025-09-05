@@ -1,16 +1,20 @@
-# Environment variables
+# Core
 python-dotenv>=1.0.0
+streamlit>=1.35.0
 
-# Typing back-ports (needed for Python <3.12)
-typing_extensions>=4.10.0
+# LangGraph & LangChain
+langgraph>=0.0.40
+langgraph-cli[inmem]>=0.0.40
+langchain[openai]>=0.2.0
+langchain-community>=0.2.0
 
-# LangChain ecosystem
-langchain>=0.2.0
-langchain-core>=0.2.0   # ensures explicit access to langchain_core.*
+# NLP & Embeddings
+sentence-transformers>=3.0.0
+chromadb>=0.5.3
 
-# LangGraph ecosystem
-langgraph>=0.0.37
-langgraph-sdk>=0.0.8     # client for LangGraph Platform
-
-# Web interface
-streamlit>=1.33.0
+# Utilities
+googlemaps>=4.10.0
+folium>=0.17.0
+polyline>=2.0.0
+scikit-learn>=1.5.0
+beautifulsoup4>=4.12.0
